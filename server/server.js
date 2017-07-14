@@ -2,13 +2,11 @@ import express from 'express'
 import config from '../config.json'
 import routes from './routes'
 import middlewares from './services/express/middlewares'
-import db from './services/db'
 import bunyan from 'bunyan'
 
 const log = bunyan.createLogger({name: 'run', level: 'info'});
 const app = express();
 
-db()
 middlewares(app)
 routes(app);
 
