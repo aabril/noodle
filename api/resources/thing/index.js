@@ -5,4 +5,4 @@ const Router = router();
 
 Router.get('/', controller.list);
 
-export default Router;
+export default Router
