@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Footer from '../components/Footer'
 
 function AboutPage() {
   return (
@@ -10,6 +11,7 @@ function AboutPage() {
       <Link href="/">
         <a>Back to home</a>
       </Link>
+      <Footer/>
     </div>
   );
 }
