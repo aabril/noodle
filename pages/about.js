@@ -1,14 +1,14 @@
 import React from 'react'
-import Page from '../layouts/main'
+import LayoutMain from '../layouts/main'
 import Link from 'next/link'
 
 export default () => (
-  <Page>
+  <LayoutMain>
     <div >
       <h3>About</h3>
       <Link href="/">
         <a>back to home</a>
       </Link>
     </div>
-  </Page>
+  </LayoutMain>
 )
