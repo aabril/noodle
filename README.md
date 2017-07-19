@@ -6,6 +6,10 @@
 
 ## Installation
 
+```
+yarn install
+```
+
 ## Usage example
 
 ```
