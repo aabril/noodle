@@ -1,19 +1,14 @@
-import React from 'react';
-import Link from 'next/link';
-import Footer from '../components/Footer'
+import React from 'react'
+import Page from '../layouts/main'
+import Link from 'next/link'
 
-function AboutPage() {
-  return (
-    <div>
-      <h1>
-        About page
-      </h1>
+export default () => (
+  <Page>
+    <div >
+      <h3>About</h3>
       <Link href="/">
-        <a>Back to home</a>
+        <a>back to home</a>
       </Link>
-      <Footer/>
     </div>
-  );
-}
-
-export default AboutPage;
+  </Page>
+)

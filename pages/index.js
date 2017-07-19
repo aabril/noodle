@@ -1,21 +1,14 @@
-import React from 'react';
-import Link from 'next/link';
-import Head from 'next/head'
-import Footer from '../components/Footer'
-import 'glamor/reset'
+import React from 'react'
+import Page from '../layouts/main'
+import Link from 'next/link'
 
-function IndexPage() {
-  return (
-    <div style={IndexPageStyle}>
-      <h1>
-        Hello World
-      </h1>
+export default () => (
+  <Page>
+    <div >
+      <h3>Home</h3>
       <Link href="/about">
-        <a>About</a>
+        <a>Link to About</a>
       </Link>
-      <Footer></Footer>
     </div>
-  );
-}
-
-export default IndexPage
+  </Page>
+)
