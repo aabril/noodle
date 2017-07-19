@@ -17,6 +17,21 @@ npm run dev
 * 0.0.1
     * Work in progress
 
+* 0.0.2
+    * Runs /api with express ( based on [Milou Skeleton](http://github.com/aabril/milou) )
+    * Removes from /api express routes: passport, mongoose, multer (upload images)
+    * Adds nextjs ( React SSR / client-side optional )
+    * Adds nextjs folder structure
+    * Adds redux (ref: https://github.com/kirill-konshin/next-redux-wrapper )
+    * [TODO] Adds server test 
+    * [TODO] Adds services to the api : Soundcloud, Spotify or whatever you wanna use
+
+
+# Idea / Purpose
+
+I don't know it yet. But I've been thinking in something based on whosampled.com, however they don't have public API :/
+
+
 ## Meta
 
 Albert Abril – [@desmondo](https://twitter.com/desmondo) – albert.abril@gmail.com
