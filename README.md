@@ -1,5 +1,5 @@
 # Noodle
-> I got my own ES6 REST API express as a skeleton 
+> Music hack day sample app. 
 
 <img src="https://raw.githubusercontent.com/aabril/noodle/master/logo.gif" width="200px">
 
