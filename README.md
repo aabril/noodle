@@ -1,7 +1,7 @@
 # Noodle
 > I got my own ES6 REST API express as a skeleton 
 
-<img src="http://gogs.ioo.cat/albert/noodle/raw/master/logo.gif" width="200px">
+<img src="https://raw.githubusercontent.com/aabril/noodle/master/logo.gif" width="200px">
 
 
 ## Installation
