@@ -3,6 +3,8 @@ import {createStore} from "redux";
 import Link from 'next/link'
 import withRedux from "next-redux-wrapper";
 import LayoutMain from '../layouts/main'
+import {Row, Col} from 'react-materialize'
+
 
 const reducer = (state = {foo: ''}, action) => {
     switch (action.type) {
@@ -32,14 +34,19 @@ class Page extends Component {
     render() {
         return (
             <LayoutMain>
-              <div>
-                  <h3>Home</h3>
-                  <div>Prop from Redux {this.props.foo}</div>
-                  <div>Prop from getInitialProps {this.props.custom}</div>
-                  <Link href="/about">
-                    <a>Link to About</a>
-                  </Link>
-              </div>
+                <Row>
+                    <Col s={12} className='grid-example'>
+                        <div>
+                            <div className='title'>Home</div>
+                            <img src='/static/noodle_logo2.jpg'/>
+                            <div>Prop from Redux {this.props.foo}</div>
+                            <div>Prop from getInitialProps {this.props.custom}</div>
+                            <Link href="/about">
+                                <a>Link to About</a>
+                            </Link>
+                        </div>
+                    </Col>
+                </Row>
             </LayoutMain>
         )
     }

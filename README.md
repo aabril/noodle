@@ -29,8 +29,8 @@ npm run dev
     * Adds redux (ref: https://github.com/kirill-konshin/next-redux-wrapper )
     * Adds react-materialize for UI components
     * [TODO] Adds server test 
+    * [TODO] eslint
     * [TODO] Adds services to the api : Soundcloud, Spotify or whatever you wanna use
-
 
 # Idea / Purpose
 
