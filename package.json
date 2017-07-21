@@ -1,7 +1,7 @@
 {
-  "name": "milou",
-  "version": "0.0.4",
-  "description": "Another NodeJS Skeleton.",
+  "name": "noodle",
+  "version": "0.2.0",
+  "description": "Music Hack Day samplep app",
   "scripts": {
     "start": "npm run serve",
     "dev": "nodemon --watch api --watch test --watch app.js --exec 'npm run serve'",

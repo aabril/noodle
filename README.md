@@ -18,10 +18,7 @@ npm run dev
 
 ## Release History
 
-* 0.0.1
-    * Work in progress
-
-* 0.0.2
+* 0.2.0
     * Runs /api with express ( based on [Milou Skeleton](http://github.com/aabril/milou) )
     * Removes from /api express routes: passport, mongoose, multer (upload images)
     * Adds nextjs ( React SSR / client-side optional )
@@ -32,10 +29,8 @@ npm run dev
     * [TODO] eslint
     * [TODO] Adds services to the api : Soundcloud, Spotify or whatever you wanna use
 
-# Idea / Purpose
-
-I don't know it yet. But I've been thinking in something based on whosampled.com, however they don't have public API :/
-
+* 0.1.0
+    * Work in progress
 
 ## Meta
 
