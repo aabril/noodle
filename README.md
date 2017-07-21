@@ -1,7 +1,6 @@
 # Noodle
-> Music hack day sample app. 
-
 <img src="https://raw.githubusercontent.com/aabril/noodle/master/logo.gif" width="200px">
+> Music hack day sample app. 
 
 
 ## Installation
